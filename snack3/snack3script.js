@@ -13,7 +13,7 @@ intNums.length = getRandomInt(5, 50);
 for (i = 0; i <= (intNums.length - 1); i++) {
   intNums[i] = Math.floor(Math.random() * 1000);
 
-  if (intNums[i] % 2 !== 0) {
+  if (i % 2 !== 0) {
     sum = sum + intNums[i];
   }
 }
