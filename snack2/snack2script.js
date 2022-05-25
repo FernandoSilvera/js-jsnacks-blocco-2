@@ -27,8 +27,8 @@ const surnames = ["Rossi",
 let guests = [];
 
 for (i = 0; i < 10; i++) {
-  const casualName = Math.floor((Math.random() * 9) + 1);
-  const casualSurname = Math.floor((Math.random() * 9)) + 1;
+  const casualName = Math.floor(Math.random() * 10);
+  const casualSurname = Math.floor(Math.random() * 10);
 
   guests.push(names[casualName] + " " + surnames[casualSurname]);
 }
